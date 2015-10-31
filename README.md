@@ -26,6 +26,10 @@ Instead, all models in the association will be destroyed if they are not include
 
 Allows chaining of calls to `has_many` and `belongs_to` relationships.
 
+### `NillableFind`
+
+Allows you to treat passing `nil` to a parent association as representing the "parent" of all of the child associations without a parent association.
+
 ## Development
 
 Run tests with `rake test`.
