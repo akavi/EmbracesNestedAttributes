@@ -22,6 +22,10 @@ Changes the behavior of `accepts_nested_attributes_for` so that an explicit `_de
 
 Instead, all models in the association will be destroyed if they are not included in the set of models used to update the association.
 
+### `ManyToMany`
+
+Allows chaining of calls to `has_many` and `belongs_to` relationships.
+
 ## Development
 
 Run tests with `rake test`.

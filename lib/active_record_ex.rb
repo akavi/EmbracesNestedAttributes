@@ -1,3 +1,5 @@
 require 'active_record_ex/version'
+require 'active_record_ex/relation_extensions'
 require 'active_record_ex/assoc_ordering'
 require 'active_record_ex/assume_destroy'
+require 'active_record_ex/many_to_many'

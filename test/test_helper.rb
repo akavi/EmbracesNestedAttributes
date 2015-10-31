@@ -3,6 +3,8 @@ require 'test/unit'
 require 'shoulda'
 require 'mocha'
 
+require 'active_record_ex/relation_extensions'
+
 class ActiveSupport::TestCase
   def db_expects(arel, query, response = nil)
     response_columns = response.try(:first).try(:keys).try(:map, &:to_s) || []
