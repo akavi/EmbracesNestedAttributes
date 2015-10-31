@@ -6,6 +6,18 @@ A library to make `ActiveRecord::Relation`s even more awesome.
 
 `ActiveRecordEx` is made of several [modules](#modules) that are used by `include`ing them on your `ActiveRecord` model classes.
 
+#### Installation
+
+Run
+```
+gem install active-record-ex
+```
+or add
+```
+gem 'active-record-ex', '~> 0.1.0'
+```
+to your `Gemfile`.
+
 #### Compatibility
 
 Currently, only ActiveRecord 3.2 with Ruby 2.1 is supported. However, other versions have not been tested and may be compatible.
