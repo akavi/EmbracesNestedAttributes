@@ -16,6 +16,12 @@ Currently, only ActiveRecord 3.2 with Ruby 2.1 is supported. However, other vers
 
 Extends setters for `has_many` associations so that ordering of association arrays is persisted.
 
+### `AssumeDestroy`
+
+Changes the behavior of `accepts_nested_attributes_for` so that an explicit `_destroy: true` is not required to destroy an association model.
+
+Instead, all models in the association will be destroyed if they are not included in the set of models used to update the association.
+
 ## Development
 
 Run tests with `rake test`.
