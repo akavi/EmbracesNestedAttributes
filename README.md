@@ -30,6 +30,10 @@ Allows chaining of calls to `has_many` and `belongs_to` relationships.
 
 Allows you to treat passing `nil` to a parent association as representing the "parent" of all of the child associations without a parent association.
 
+### `PolymorphicBuild`
+
+Allows choosing the subclass of a model in an association via a passed `:type` parameter, useful for `accepts_nested_attributes_for` on a polymorphic association.
+
 ## Development
 
 Run tests with `rake test`.
