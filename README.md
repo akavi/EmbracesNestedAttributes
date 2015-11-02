@@ -20,7 +20,7 @@ to your `Gemfile`.
 
 #### Compatibility
 
-Currently, only ActiveRecord 3.2 with Ruby 2.1 is supported. However, other versions have not been tested and may be compatible.
+Currently, only ActiveRecord 3.2 is supported. However, other versions have not been tested and may be compatible.
 
 ## Modules
 
