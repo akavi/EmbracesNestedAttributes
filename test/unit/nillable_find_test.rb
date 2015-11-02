@@ -1,6 +1,6 @@
 require 'test_helper'
-require 'active_record_ex/many_to_many'
-require 'active_record_ex/nillable_find'
+require 'active-record-ex/many_to_many'
+require 'active-record-ex/nillable_find'
 
 class NillableFindTest < ActiveSupport::TestCase
   class Parent < StubModel

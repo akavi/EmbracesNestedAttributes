@@ -1,7 +1,7 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'active_record_ex/version'
+require 'active-record-ex/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'active-record-ex'

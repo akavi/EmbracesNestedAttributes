@@ -1,5 +1,5 @@
 require 'test_helper'
-require 'active_record_ex/polymorphic_build'
+require 'active-record-ex/polymorphic_build'
 
 class PolymorphicBuildTest < ActiveSupport::TestCase
   class PolyBase < StubModel

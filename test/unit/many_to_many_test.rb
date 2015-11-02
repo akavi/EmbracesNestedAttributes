@@ -1,5 +1,5 @@
 require 'test_helper'
-require 'active_record_ex/many_to_many'
+require 'active-record-ex/many_to_many'
 
 class ManyToManyTest < ActiveSupport::TestCase
   class HasManied < StubModel

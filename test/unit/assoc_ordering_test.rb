@@ -1,5 +1,5 @@
 require 'test_helper'
-require 'active_record_ex/assoc_ordering'
+require 'active-record-ex/assoc_ordering'
 
 class OrderedAssoc < StubModel
   attr_accessor :name

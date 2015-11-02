@@ -1,5 +1,5 @@
 require 'test_helper'
-require 'active_record_ex/assume_destroy'
+require 'active-record-ex/assume_destroy'
 
 class AssumeDestroyTest < ActiveRecord::TestCase
   class AssumesDestroy < StubModel
