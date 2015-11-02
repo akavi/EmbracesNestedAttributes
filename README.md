@@ -14,7 +14,7 @@ gem install active-record-ex
 ```
 or add
 ```
-gem 'active-record-ex', '~> 0.2.0'
+gem 'active-record-ex', '~> 0.2.1'
 ```
 to your `Gemfile`.
 
