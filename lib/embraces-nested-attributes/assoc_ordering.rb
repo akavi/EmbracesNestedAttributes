@@ -1,6 +1,6 @@
 # Extends setters for has_many associations
 # So that ordering of association arrays is persisted
-module ActiveRecordEx
+module EmbracesNestedAttributes
   module AssocOrdering
     def self.included(base)
       base.extend(ClassMethods)

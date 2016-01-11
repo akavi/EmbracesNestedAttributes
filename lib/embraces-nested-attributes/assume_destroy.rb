@@ -3,7 +3,7 @@
 # ie, will destroy associations if explicitly marked by _destroy: true
 # this flips that, causing an association to be destroyed 
 # if it's not included in the updating attrs
-module ActiveRecordEx
+module EmbracesNestedAttributes
   module AssumeDestroy
     def self.included base
       base.extend(ClassMethods)

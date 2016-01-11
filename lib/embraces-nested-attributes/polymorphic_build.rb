@@ -2,7 +2,7 @@
 # via a passed :type parameter
 # this is useful for using accepts_nested_attributes_for
 # with subclassed associations
-module ActiveRecordEx
+module EmbracesNestedAttributes
   module PolymorphicBuild
     def self.included(base)
       base.extend(ClassMethods)

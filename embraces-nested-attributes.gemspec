@@ -4,14 +4,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'active-record-ex/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'active-record-ex'
+  spec.name          = 'embraces-nested-attributes'
   spec.version       = ActiveRecordEx::VERSION
   spec.authors       = ['Arjun Kavi', 'PagerDuty']
   spec.email         = ['arjun.kavi@gmail.com', 'developers@pagerduty.com']
   spec.license       = 'MIT'
-  spec.summary       = 'Relation -> Relation methods'
-  spec.description   = 'A library to make ActiveRecord::Relations even more awesome'
-  spec.homepage      = 'https://github.com/PagerDuty/active-record-ex'
+  spec.summary       = 'Optional extensions to ActiveRecord::Base.accepts_nested_attributes'
+  spec.description   = 'A bunch of little things to make accepts_nested_attributes even more awesome.'
+  spec.homepage      = 'https://github.com/akavi/EmbracesNestedAttributes'
 
   spec.files         = `git ls-files -z`.split("\x0")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
